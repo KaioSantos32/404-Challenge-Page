@@ -1,0 +1,113 @@
+.notFound{
+    font-family: 'Inconsolata';
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-left: 1%;
+}
+
+.scarecrow img{
+    max-width: 30%;
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+}
+
+.noticiaContent{
+    display: block;
+    margin-left: 50%;
+    width: 40%;
+}
+
+.badNews{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 300%;
+    letter-spacing: -2px;
+}
+.conteudo{
+    font-family: Space Mono;
+    font-weight: 400;
+    letter-spacing: -2px;
+    font-size: 24px;
+}
+
+.homePage{
+    margin-left: 50%;
+    width: 20%;
+    height: 4em;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+footer{
+
+    padding-top: 11%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #a5a5a5;
+}
+
+@media (max-width:700px){
+
+    .notFound{
+        font-family: 'Inconsolata';
+        font-size: 200%;
+        font-weight: 700;
+        letter-spacing: -2px;
+        margin-left: 1%;
+    }
+    
+    .scarecrow{
+        display: block ruby;
+        padding-bottom: 20%;
+    }
+
+    .scarecrow img{
+        position: center;
+        max-width: 50%;
+        position: absolute;
+        left: 20%;
+        right: 57.21%;
+        top: 15%;
+        bottom: 34.03%;
+    }
+    .noticiaContent{
+        text-align: left;
+        display: initial;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    .badNews{
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 260%;
+        letter-spacing: -3px;
+
+        padding-top: 10%;
+    }
+
+    .conteudo{
+        font-family: Space Mono;
+        font-weight: 400;
+        letter-spacing: -2px;
+        font-size: 24px;
+    }
+
+    .homePage{
+        margin-left: 50%;
+        width: 30%;
+        height: 4em;
+        margin-left: 5%;
+        background-color: rgb(46, 46, 46);
+        color: white;
+    }
+}
