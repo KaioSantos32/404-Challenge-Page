@@ -165,8 +165,11 @@ footer a{
         color: white;
     }
 
-    footer{
+    footer p{
         font-size: 0.7em;
         width: 60vw;
+    }
+    footer a{
+        color: #5a5a5d;
     }
 }
