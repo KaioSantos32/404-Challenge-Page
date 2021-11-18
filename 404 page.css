@@ -83,18 +83,7 @@ footer{
     }
     
     .scarecrow{
-        display: block ruby;
-        padding-bottom: 20%;
-    }
-
-    .scarecrow img{
-        position: center;
-        max-width: 50%;
-        position: absolute;
-        left: 20%;
-        right: 57.21%;
-        top: 15%;
-        bottom: 34.03%;
+        display: none;
     }
     .noticiaContent{
         text-align: left;
