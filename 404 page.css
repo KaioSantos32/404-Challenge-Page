@@ -172,4 +172,8 @@ footer a{
     footer a{
         color: #5a5a5d;
     }
+    
+        footer a ::after{
+        color: #5a5a5d
+    }
 }
