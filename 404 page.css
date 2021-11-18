@@ -57,7 +57,7 @@ h1{
     color: white;
 }
 
-footer{
+footer p{
 
     padding-top: 11%;
     margin-left: 50%;
@@ -68,6 +68,10 @@ footer{
     line-height: 17px;
     text-align: center;
     color: #a5a5a5;
+}
+
+footer a{
+    color: #5a5a5d;
 }
 
 @media (max-width:700px){
