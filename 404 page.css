@@ -1,9 +1,19 @@
-.notFound{
+
+body{
+    margin: 5%;
+}
+
+.content{
+    display: inline-block;
+}
+h1{
     font-family: 'Inconsolata';
     font-size: 200%;
     font-weight: 700;
+
     letter-spacing: -2px;
-    margin-left: 1%;
+
+    margin-left: 5%;
 }
 
 .scarecrow img{
@@ -47,32 +57,24 @@ footer{
     padding-top: 11%;
     margin-left: 50%;
     transform: translateX(-50%);
-
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    
+    font-size: 1em;
     line-height: 17px;
-    
     text-align: center;
-    
     color: #a5a5a5;
-    
-
-}
-
-a{
-        text-decoration: none;
 }
 
 @media (max-width:700px){
 
-    .notFound{
+    h1{
         font-family: 'Inconsolata';
         font-size: 200%;
         font-weight: 700;
+      
         letter-spacing: -2px;
-        margin-left: 1%;
+      
+        margin-left: 5%;
     }
     
     .scarecrow{
@@ -99,10 +101,57 @@ a{
     .badNews{
         font-family: 'Space Mono', monospace;
         font-weight: 700;
-        font-size: 260%;
+        font-size: 3em;
         letter-spacing: -3px;
 
-        padding-top: 10%;
+        padding-top: 13vh;
+    }
+
+    .conteudo{
+        font-family: Space Mono;
+        font-weight: 400;
+        letter-spacing: -2px;
+        font-size: 2em;
+    }
+
+    .homePage{
+        margin-left: 30vw;
+        width: 30%;
+        height: 6vh;
+        background-color: rgb(46, 46, 46);
+        color: white;
+    }
+}
+
+@media (max-width:300px){
+
+    h1{
+        font-family: 'Inconsolata';
+        font-size: 200%;
+        font-weight: 700;
+      
+        letter-spacing: -2px;
+      
+        margin-left: 5%;
+    }
+    
+    .scarecrow{
+        display: none;
+    }
+
+    .noticiaContent{
+        text-align: left;
+        display: initial;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    .badNews{
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        font-size: 260%;
+        letter-spacing: -3px;
+        margin-top: -10%;
     }
 
     .conteudo{
@@ -113,11 +162,14 @@ a{
     }
 
     .homePage{
-        margin-left: 50%;
-        width: 30%;
+        width: 50%;
         height: 4em;
-        margin-left: 5%;
+        margin-left: 20%;
         background-color: rgb(46, 46, 46);
         color: white;
+    }
+
+    footer{
+        font-size: 0.5em;
     }
 }
